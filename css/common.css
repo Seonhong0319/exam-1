@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:"나눔스퀘어_ac";
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  box-shadow: 5px 2px 2px -1px rgba(0,0,0,.1);
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ff8c8c;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.logo a:hover{
+  background-color: #fff;
+  color: black;
+}
+.hover{
+  background-color: #ff8c8c;
+}
+
+ul{
+  list-style-type: none;
+}
+#content .item{
+  float:left;
+  margin-top:20px;
+  border-top: solid 1px #cccccc;
+  text-align:center;
+}
+#content .subject{
+  margin-top:5px;
+}
+#content .comment{
+  margin-top: 5px;
+  color:#888888;
+}
+
+.imgswap img:last-child{display:none}
+.imgswap:hover img:first-child{display:none}
+.imgswap:hover img:last-child{display:inline-block}
